@@ -20,7 +20,9 @@ The AI Words Assistant is a Python-based graphical user interface (GUI) applicat
 
 6. Install Python libraries into the new virtual environment: `pip install -r /app/requirements.txt`
 
-7. Run the main file: `python /app/AIWordsAssistantApp.py`
+7. Navigate to the app directory: `cd /app`
+
+8. Run the main file: `/path/to/new/virtual/environment/Scripts/python.exe AIWordsAssistantApp.py`
 
 ## How This Application Can Help with Word Recall
 

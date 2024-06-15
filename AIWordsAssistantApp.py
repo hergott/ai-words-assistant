@@ -439,7 +439,6 @@ class AIWordsAssistantApp:
         self.parsing_audio = False             
 
 if __name__ == "__main__":
-    os.chdir('C:/Users/matt_/OneDrive/Documents/Python-projects/NVIDIA-competition/app/')
     try:
         app_instance = AIWordsAssistantApp()
         app_instance.app.mainloop()

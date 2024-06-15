@@ -4,6 +4,24 @@
 
 The AI Words Assistant is a Python-based graphical user interface (GUI) application designed to enhance conversational experiences by recording conversations, transcribing voice to text, predicting likely words using artificial intelligence, and selecting images based on these predictions. This application integrates various components such as audio recording, speech-to-text transcription, and word prediction to provide a seamless and interactive user experience.
 
+## Instructions
+
+1. Git clone or download app (131MB .ZIP file) from: <https://github.com/hergott/ai-words-assistant>
+
+2. If downloaded .ZIP file, unzip app to location of your choice. The app folder is referred to here as `/app`
+
+2. In the `/app/.env` file, enter your API keys for NVIDIA NIM, OpenAI, and Tavily.
+
+3. Create new Python virtual environment: `python -m venv /path/to/new/virtual/environment`
+
+4. Move to directory: `/path/to/new/virtual/environment/Scripts`
+
+5. (Optional) Upgrade the pip installer: `python -m pip install --upgrade pip`
+
+6. Install Python libraries into the new virtual environment: `pip install -r /app/requirements.txt`
+
+7. Run the main file: `python /app/AIWordsAssistantApp.py`
+
 ## How This Application Can Help with Word Recall
 
 The AI Words Assistant application can significantly aid individuals in recalling words during conversations in several ways:       

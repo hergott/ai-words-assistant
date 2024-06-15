@@ -135,7 +135,7 @@ if __name__ == "__main__":
 3. **Try Another Microphone**: If the current microphone is not working, try using a different microphone. Some microphones may not be compatible or may not be recognized by the Python executable.
 4. **Update Drivers**: Ensure that your microphone drivers are up to date. Outdated drivers can sometimes cause issues with audio recording.
 5. **Test with Other Software**: Test the microphone with other audio recording software to determine if the issue is specific to the `AudioRecorder.py` script or a more general problem with the microphone.
-6. **Check Python Libraries**: Ensure that all necessary Python libraries for audio recording (e.g., pyaudio) are properly installed and up to date.
+6. **Check Python Libraries**: Ensure that all necessary Python libraries for audio recording (e.g., sounddevice) are properly installed and up to date.
 
 By following these troubleshooting steps, you can identify and resolve common issues that may arise when using the AI Words Assistant application.
 

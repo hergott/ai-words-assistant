@@ -24,6 +24,21 @@ The AI Words Assistant is a Python-based graphical user interface (GUI) applicat
 
 8. Run the main file: `/path/to/new/virtual/environment/Scripts/python.exe AIWordsAssistantApp.py`
 
+## Sample output
+
+Intro screen
+
+<img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/app_entry.png" width=30%>
+
+Screen and terminal output after listening to video about pickleball (a sport like tennis)
+
+<img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/app_exit.png" width=30%>
+<img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/gimp_pickleball_1.png" width=30%>
+<img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/gimp_pickleball_2.png" width=30%>
+<img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/gimp_pickleball_3.png" width=30%>
+<img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/gimp_pickleball_full.png" width=30%>
+
+
 ## How This Application Can Help with Word Recall
 
 The AI Words Assistant application can significantly aid individuals in recalling words during conversations in several ways:       

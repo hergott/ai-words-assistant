@@ -26,12 +26,12 @@ The AI Words Assistant is a Python-based graphical user interface (GUI) applicat
 
 ## Sample output
 
-# Intro screen
+#### Intro screen
 
 <img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/app_entry.png" width=60%>
 
 
-# Screen and terminal output after listening to video about pickleball (a sport like tennis)
+#### Screen and terminal output after listening to video about pickleball (a sport like tennis)
 
 <img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/app_exit.png" width=60%>
 <img src="https://github.com/hergott/ai-words-assistant/blob/main/sample_output/gimp_pickleball_1.png" width=60%>

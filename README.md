@@ -14,7 +14,7 @@ The AI Words Assistant is a Python-based graphical user interface (GUI) applicat
 
 3. Create new Python virtual environment: `python -m venv /path/to/new/virtual/environment`
 
-4. Move to directory: `/path/to/new/virtual/environment/Scripts`
+4. Move to virtual environment directory: `cd /path/to/new/virtual/environment/Scripts`
 
 5. (Optional) Upgrade the pip installer: `python -m pip install --upgrade pip`
 

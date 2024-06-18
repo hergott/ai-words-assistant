@@ -333,13 +333,7 @@ class AIWordsAssistantApp:
                       
         text = transcription.text
         
-        text = ''.join(filter(lambda x: x in string.printable, text))
-        
-        # # Use a regular expression to match all non-ASCII characters.
-        # non_ascii_chars = re.compile(r'[^\x00-\x7f]')
-
-        # # Remove all non-ASCII characters from the string.
-        # text = non_ascii_chars.sub('', text)        
+        text = ''.join(filter(lambda x: x in string.printable, text))      
         
         if len(text)<1:
             transcription_error = True
@@ -372,7 +366,10 @@ class AIWordsAssistantApp:
             f.write(new_text)        
         
         # Split the string on commas, whitespace, and any punctuation characters
-        conversation_words = re.split("[,\s\.\?!]", new_text)
+        conversation_words = re.split(r"[, .?!:;]", new_text)
+        
+        # # syntax warning as of Python 3.12
+        # conversation_words = re.split("[,\s\.\?!]", new_text)
 
         # Remove any whitespace characters
         conversation_words = [word.strip() for word in conversation_words]
@@ -448,7 +445,6 @@ class AIWordsAssistantApp:
         self.parsing_audio = False             
 
 if __name__ == "__main__":
-
     try:
         app_instance = AIWordsAssistantApp()
         app_instance.app.mainloop()

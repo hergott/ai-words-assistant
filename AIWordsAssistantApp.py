@@ -52,6 +52,7 @@ from PIL import Image
 import os
 import logging
 import re
+import string
 
 from React import React
 from AudioRecorder import AudioRecorder
@@ -332,11 +333,13 @@ class AIWordsAssistantApp:
                       
         text = transcription.text
         
-        # Use a regular expression to match all non-ASCII characters.
-        non_ascii_chars = re.compile(r'[^\x00-\x7f]')
+        text = ''.join(filter(lambda x: x in string.printable, text))
+        
+        # # Use a regular expression to match all non-ASCII characters.
+        # non_ascii_chars = re.compile(r'[^\x00-\x7f]')
 
-        # Remove all non-ASCII characters from the string.
-        text = non_ascii_chars.sub('', text)        
+        # # Remove all non-ASCII characters from the string.
+        # text = non_ascii_chars.sub('', text)        
         
         if len(text)<1:
             transcription_error = True
@@ -445,7 +448,7 @@ class AIWordsAssistantApp:
         self.parsing_audio = False             
 
 if __name__ == "__main__":
-    os.chdir('C:/Users/matt_/OneDrive/Documents/Python-projects/NVIDIA-competition/app/')
+
     try:
         app_instance = AIWordsAssistantApp()
         app_instance.app.mainloop()

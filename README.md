@@ -6,7 +6,7 @@ The AI Words Assistant is a Python-based graphical user interface (GUI) applicat
 
 ## Instructions
 
-Note: these instructions install the required Python libraries directly into a virtual environment. On some systems, it's necessary to `activate` the virtual environment to install libraries: <https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/>
+Note: these instructions install the required Python libraries directly into a virtual environment. On some systems, it's necessary to `activate` the virtual environment to install libraries and run the Python executable: <https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/>
 
 1. Git clone or download app (131MB .ZIP file) from: <https://github.com/hergott/ai-words-assistant>
 
